@@ -1,0 +1,69 @@
+{
+  "info": {
+    "_postman_id": "cd5bfd26-885e-42db-9ab0-7a0a23e883b1",
+    "name": "Scraper Ecommerce",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "34599473"
+  },
+  "item": [
+    {
+      "name": "Return Platform",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"urls\": [\r\n    \"shopify.com\",\r\n    \"gomag.ro\",\r\n    \"some-random-site.com\"\r\n  ]\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/scrape",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "scrape"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Return Platform CSV",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"urls\": [\r\n    \"http://www.hobby-planet.ro\",\r\n    \"https://teach4u.ro/\",\r\n    \"http://onlinemall.ro\",\r\n    \"http://www.touratech.ro\"\r\n  ]\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/scrape/csv",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "scrape",
+            "csv"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

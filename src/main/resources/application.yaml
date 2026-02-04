@@ -1,0 +1,11 @@
+# Logging Properties
+logging:
+  level:
+    org.hibernate.sql: DEBUG
+    org.hibernate.type.descriptor.sql: TRACE
+
+# SpringBoot
+spring.output.ansi.enabled: ALWAYS
+
+# Concurrency
+maxconcurrency: "10"
