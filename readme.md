@@ -33,12 +33,12 @@ postman-collection.json
 1) Detect (JSON)
    POST /api/scrape
    Body example:
-   { "urls": ["shopify.com", "gomag.ro"] }
+   `{ "urls": ["shopify.com", "gomag.ro"] }`
 
 2) Detect (CSV)
    POST /api/scrape/csv
    Returns a CSV string with header:
-   website,platforms
+   `website,platforms`
 
 ---
 
