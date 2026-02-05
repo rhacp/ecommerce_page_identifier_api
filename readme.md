@@ -14,7 +14,7 @@ Spring Boot REST API that detects which e-commerce platform a website uses (Shop
 `docker build -t platform-detector .`
 
 4) Run the container:
-`docker run -p 8080:8080 platform-detector`
+`docker run --name platform-detector-api -p 8080:8080 platform-detector`
 
 API will be available at:
 http://localhost:8080
