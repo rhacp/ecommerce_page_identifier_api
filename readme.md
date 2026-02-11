@@ -1,6 +1,15 @@
 # E-commerce Platform Detector API
 
-Spring Boot REST API that detects which e-commerce platform a website uses (Shopify, Magento, WooCommerce, PrestaShop, OpenCart, GoMag, MerchantPro).
+Spring Boot REST API that detects which e-commerce platform a website uses.
+
+Ecommerce/partner platforms that are searched:
+- WooCommerce
+- Magento
+- Shopify
+- PrestaShop
+- OpenCart
+- GoMag
+- MerchantPro
 
 ---
 
@@ -24,7 +33,7 @@ http://localhost:8080
 ## Test the API
 
 Import the Postman collection located in the project root:
-postman-collection.json
+`postman-collection.json`
 
 ---
 

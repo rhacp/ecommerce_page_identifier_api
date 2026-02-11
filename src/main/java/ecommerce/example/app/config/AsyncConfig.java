@@ -15,7 +15,7 @@ public class AsyncConfig {
 
         executor.setCorePoolSize(10);     // threads running normally
         executor.setMaxPoolSize(10);      // max threads
-        executor.setQueueCapacity(200);   // queued tasks
+        executor.setQueueCapacity(2000);   // queued tasks
         executor.setThreadNamePrefix("scraper-");
 
         executor.initialize();
